@@ -1,4 +1,6 @@
-# ToriouxFrontEnd
+# Musique
+
+A music page made with Angular share all your favourite albums!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
 

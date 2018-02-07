@@ -1,0 +1,56 @@
+<!-- Header Starts -->
+<div class="navbar-wrapper ">
+    <div class="container">
+
+
+        <div class="navbar navbar-inverse navbar-fixed-top animated fadeInDown" role="navigation" id="top-nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- Logo Starts -->
+                    <a class="navbar-brand" href="#home">
+                        <img src="assets/img/logo.png" height="30" alt="logo" />
+                    </a>
+                    <!-- #Logo Ends -->
+
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+
+                <!-- Nav Starts -->
+                <div class="navbar-collapse  collapse">
+                    <ul class="nav navbar-nav navbar-right" id="main-nav">
+                        <li [class.active]="routeName==='home'">
+                            <a [routerLink]="['home']">Home</a><!--href="home#home" target="_self"-->
+                        </li>
+                        <li [class.active]="routeName==='playlist'">
+                            <a [routerLink]="['playlist']">Playlist</a><!--href="home#playlist"-->
+                        </li>
+                        <li [class.active]="routeName==='albums'">
+                            <a [routerLink]="['albums']">Albums</a><!--href="home#album"-->
+                        </li>
+                        <li [class.active]="routeName==='eventsandblog'">
+                            <a [routerLink]="['eventsandblog']">Events & Blog</a><!--href="home#blogevent"-->
+                        </li>
+                        <li [class.active]="routeName==='about'">
+                            <a [routerLink]="['about']">About</a><!--href="home#about"-->
+                        </li>
+                        <li [class.active]="routeName==='contact'">
+                            <a [routerLink]="['contact']">Contact</a><!--href="home#contact"-->
+                        </li>
+                    </ul>
+                </div>
+                <!-- #Nav Ends -->
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- #Header Starts -->
